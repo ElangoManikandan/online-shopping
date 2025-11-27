@@ -1,0 +1,152 @@
+.product-card-div img{
+width: 150px;height: 150px;
+object-fit:contain;
+}
+
+.product-card-div{
+    width: 21.2%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border-radius:20px;
+    transition: all 0.1s linear;
+     overflow: hidden;
+     cursor: pointer;
+}
+.products-header{
+    display: flex;
+    justify-content: center;
+    width:20%;
+}
+
+.product-card-div p{
+    padding: 10px;
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    margin-bottom: 0;
+    
+}
+
+.product-card-div:hover{
+    border:2px solid black;
+    transform: translateY(-10px)  scale(1.05);
+}
+
+/* .card {
+  transition: 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+} */
+
+.product-card-div button{
+    padding:10px;
+    /* border:1px solid black; */
+    /* box-shadow: 2px 2px 5px black; */
+    border: none;
+    border-radius: 20px;
+    margin: 0px 20px;
+    background-color: #FF9900;
+    color:black;
+    cursor: pointer;
+}
+.product-card-div button:hover{
+    color:black;
+}
+#one{
+    color:white;
+    background-image: linear-gradient(135deg,orange,rgb(182, 157, 110));
+    cursor: pointer;
+}
+#two{
+    color:white;
+    background-image: linear-gradient(135deg,green,lightgreen);
+    cursor: pointer;
+}
+.view-details{
+   cursor: pointer;
+    display: inline;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
+
+/*This is React fix style*/
+
+.img-skeleton {
+  width: 250px;
+  height: 250px;
+  background: #e4e4e4;
+  border-radius: 10px;
+  animation: pulse 1.5s infinite;
+}
+
+.hidden-img {
+  display: none;
+}
+
+.product-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+
+@media (max-width: 480px) {
+    .product-card-div {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .product-card-div img {
+        width: 100px;
+        height: 100px;
+    }
+    .product-card-div h1 {
+        font-size: 16px;
+    }
+    .product-card-div p {
+        font-size: 14px;
+    }
+    .product-card-div button {
+        padding: 8px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .product-card-div {
+        width: 30%;
+    }
+    .product-card-div img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+       .product-card-div {
+        width: 50%;
+        /* height: 400px; */
+    } 
+    .product-card-div img {
+        width: 120px;
+        height: 120px;
+    }
+    .product-card-div h1 {
+        font-size: 18px;
+    }
+    .products-header{
+      align-items: center;
+      justify-content: center;
+      width:100vw;
+    }
+}

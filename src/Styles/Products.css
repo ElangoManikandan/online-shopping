@@ -1,0 +1,16 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; 
+    gap:20px;
+}
+.products-loading {
+  min-height: 80vh;   /* Prevent layout collapse */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+

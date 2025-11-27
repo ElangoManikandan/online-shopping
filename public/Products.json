@@ -1,0 +1,1001 @@
+  {
+    "Products": 
+  [
+    {
+      "id": 1,
+      "title": "Ultra Pro X Smartphone",
+      "price": 19999.99,
+      "description": "Flagship smartphone with 6.7-inch Super AMOLED display, 108MP camera, and 5000mAh battery. 12GB RAM, 256GB storage.",
+      "category": "smartphones",
+      "image": "../dummyData/assets/smartphone-1.png"
+    },
+
+    {
+      "id": 2,
+      "title": "Nova Lite 5G",
+      "price": 14449.50,
+      "description": "Mid-range 5G phone. 6.5-inch OLED screen, 64MP triple camera, 4500mAh battery. 8GB RAM, 128GB storage.",
+      "category": "smartphones",
+      "image": "/dummyData/assets/smartphone-2.png"
+    },
+
+  {
+    "id": 3,
+    "title": "Essential Mini 3",
+    "price": 13299.00,
+    "description": "Compact and budget-friendly smartphone. 5.8-inch display, dual camera, all-day battery life. 4GB RAM, 64GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-3.png"
+  },
+
+  {
+    "id": 4,
+    "title": "Gaming Beast Z",
+    "price": 121299.99,
+    "description": "High-performance gaming phone. 144Hz refresh rate, powerful processor, advanced cooling system. 16GB RAM, 512GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-4.png"
+  },
+
+  {
+    "id": 5,
+    "title": "Rugged Explorer",
+    "price": 59999.99,
+    "description": "Durable, water, and dust-resistant smartphone. Ideal for outdoor use. Long-lasting battery. 8GB RAM, 128GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-5.png"
+  },
+
+  {
+    "id": 6,
+    "title": "StellarBook Pro 14",
+    "price": 14999.00,
+    "description": "Premium ultrabook. 14-inch QHD display, Intel i7, 16GB RAM, 1TB SSD. Thin, light, and powerful.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-2.webp"
+  },
+
+  {
+    "id": 7,
+    "title": "Gaming Rig 3000",
+    "price": 19999.99,
+    "description": "High-end gaming laptop. 15.6-inch 144Hz display, RTX 4070, 32GB RAM, 2TB SSD. RGB keyboard.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-3.webp"
+  },
+
+  {
+    "id": 8,
+    "title": "MacBook Pro",
+    "price": 84999.95,
+    "description": "Lightweight and fast laptop for students and everyday tasks. 13-inch display, Chrome OS, long battery life.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-4.webp"
+  },
+
+  {
+    "id": 9,
+    "title": "Business Elite X1",
+    "price": 19999.50,
+    "description": "Professional business laptop. Secure, reliable, all-day battery. 14-inch anti-glare screen. 16GB RAM, 512GB SSD.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-5.webp"
+  },
+  
+  {
+    "id": 10,
+    "title": "Creator Studio 16",
+    "price": 22999.00,
+    "description": "Laptop optimized for video and graphic editing. 16-inch 4K OLED, powerful GPU, color-accurate display. 32GB RAM.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop.png"
+  },
+  {
+    "id": 11,
+    "title": "SmartWatch Pro 4",
+    "price": 2999.00,
+    "description": "Advanced smartwatch with heart rate, SpO2 monitoring, and GPS. Multi-day battery life.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-1.png"
+  },
+  {
+    "id": 12,
+    "title": "Noise-Cancelling Buds Z",
+    "price": 1499.99,
+    "description": "True wireless earbuds with superb active noise cancellation and 24-hour total playback.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-2.png"
+  },
+  {
+    "id": 13,
+    "title": "Portable Power Bank 20K",
+    "price": 1000.00,
+    "description": "High-capacity 20,000mAh power bank with fast charging and multiple ports.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-3.png"
+  },
+  {
+    "id": 14,
+    "title": "Mini Drone 4K",
+    "price": 3999.99,
+    "description": "Foldable drone with 4K video recording, obstacle avoidance, and 30 minutes of flight time.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-4.png"
+  },
+  {
+    "id": 15,
+    "title": "Smart Home Hub V2",
+    "price": 8999.50,
+    "description": "Central controller for all smart home devices. Compatible with major platforms (Zigbee, WiFi).",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-5.png"
+  },
+  {
+    "id": 16,
+    "title": "Desktop Workstation Pro",
+    "price": 18999.00,
+    "description": "High-end desktop PC for professional design and rendering. Intel i9, 64GB RAM, dedicated professional GPU.",
+    "category": "pcs",
+    "image": "/dummyData/assets/pc-1.webp"
+  },
+  {
+    "id": 17,
+    "title": "Compact Mini PC",
+    "price": 59999.00,
+    "description": "Ultra-small form factor PC, ideal for small offices or HTPC. Intel i5, 8GB RAM, 256GB SSD.",
+    "category": "pcs",
+    "image": "/dummyData/assets/pc-2.webp"
+  },
+  {
+    "id": 18,
+    "title": "Beginner Gaming PC",
+    "price": 89999.99,
+    "description": "Entry-level pre-built gaming PC. Ryzen 5, 16GB RAM, RTX 3050. Ready for 1080p gaming.",
+    "category": "pcs",
+    "image": "/dummyData/assets/pc-3.webp"
+  },
+  {
+    "id": 19,
+    "title": "All-in-One Touch 27",
+    "price": 12999.50,
+    "description": "27-inch All-in-One PC with a vibrant touchscreen display. Sleek design, integrated webcam.",
+    "category": "pcs",
+    "image": "/dummyData/assets/pc-4.webp"
+  },
+  {
+    "id": 20,
+    "title": "Home Office PC",
+    "price": 44999.00,
+    "description": "Reliable desktop for web browsing, email, and productivity. 8GB RAM, 500GB SSD.",
+    "category": "pcs",
+    "image": "/dummyData/assets/PCs.png"
+  },
+  {
+    "id": 21,
+    "title": "Modern 3-Door Wardrobe",
+    "price": 45000.00,
+    "description": "Spacious 3-door wardrobe with a matte finish, two large drawers, and an integrated mirror.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-1.png"
+  },
+  {
+    "id": 22,
+    "title": "Vintage Oak Kitchen Cupboard",
+    "price": 6200.99,
+    "description": "Solid oak wood cupboard with glass panel doors, perfect for kitchen or dining room storage.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-2.png"
+  },
+  {
+    "id": 23,
+    "title": "Corner Storage Cabinet",
+    "price": 18500.00,
+    "description": "Space-saving corner cupboard with adjustable shelves, ideal for small spaces. White finish.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-3.png"
+  },
+  {
+    "id": 24,
+    "title": "File & Utility Cupboard",
+    "price": 2500.50,
+    "description": "Steel utility cupboard with locking doors and four heavy-duty shelves. Suitable for office or garage.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-4.png"
+  },
+  {
+    "id": 25,
+    "title": "TV Media Cabinet",
+    "price": 3100.00,
+    "description": "Low-profile cupboard/cabinet with cable management cutouts and open shelving for media devices.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-5.png"
+  },
+  {
+    "id": 26,
+    "title": "King Size Platform Bed",
+    "price": 55000.00,
+    "description": "Minimalist king size bed frame with a solid wooden platform base. No box spring required.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-1.png"
+  },
+  {
+    "id": 27,
+    "title": "Upholstered Queen Bed",
+    "price": 79900.99,
+    "description": "Queen size bed with a plush, grey fabric upholstered headboard and storage drawers underneath.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-2.png"
+  },
+  {
+    "id": 28,
+    "title": "Metal Frame Daybed",
+    "price": 29900.50,
+    "description": "Versatile twin daybed with a trundle for extra sleeping space. Black metal finish.",
+    "category": "beds",
+    "image":"/dummyData/assets/bed-3.png"
+  },
+  {
+    "id": 29,
+    "title": "Four Poster Canopy Bed",
+    "price": 9500.00,
+    "description": "Elegant queen size four-poster bed frame, ideal for a luxurious bedroom aesthetic. Dark wood.",
+    "category": "beds",
+    "image":"/dummyData/assets/bed-4.png"
+  },
+  {
+    "id": 30,
+    "title": "Loft Bed with Desk",
+    "price": 42000.75,
+    "description": "Space-saving single loft bed with an integrated desk and shelving unit beneath.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-5.png"
+  },
+  {
+    "id": 31,
+    "title": "Extendable Dining Table (6-8)",
+    "price": 5990.00,
+    "description": "Solid wood dining table that easily extends to seat 8 people. Perfect for family gatherings.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-1.png"
+  },
+  {
+    "id": 32,
+    "title": "Round Glass Top Table",
+    "price": 34900.50,
+    "description": "Modern round dining table with a clear tempered glass top and polished chrome base. Seats 4.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-2.png"
+  },
+  {
+    "id": 33,
+    "title": "Rustic Farmhouse Table",
+    "price": 7200.00,
+    "description": "Large rectangular dining table made from reclaimed barn wood. Seats 8-10 comfortably.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-3.png"
+  },
+  {
+    "id": 34,
+    "title": "Compact Kitchen Nook Set",
+    "price": 2800.99,
+    "description": "Small square dining table with two matching chairs, designed for kitchen nooks or apartments.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-4.png"
+  },
+  {
+    "id": 35,
+    "title": "Marble Top Bistro Table",
+    "price": 1990.00,
+    "description": "Elegant small bistro table with a genuine marble top and a pedestal base. Seats 2.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-5.png"
+  },
+  {
+    "id": 36,
+    "title": "5-Tier Industrial Bookshelf",
+    "price": 1500.00,
+    "description": "Tall, open shelving unit with metal frame and distressed wood shelves. Perfect for books and decor.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-1.png"
+  },
+  {
+    "id": 37,
+    "title": "Floating Wall Shelves (Set of 3)",
+    "price": 49.95,
+    "description": "Set of three rectangular floating shelves with invisible mounting hardware. White high-gloss finish.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-2.png"
+  },
+  {
+    "id": 38,
+    "title": "Cube Storage Organizer",
+    "price": 8500.50,
+    "description": "Modular 9-cube organizer ideal for vinyl records, toys, or general storage. Compatible with storage bins.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-3.png"
+  },
+  {
+    "id": 39,
+    "title": "Adjustable Wire Shelving Unit",
+    "price": 9900.00,
+    "description": "Chrome-plated commercial-grade wire shelving with adjustable shelf height. Great for pantry or garage.",
+    "category": "shelves",
+    "image":"/dummyData/assets/shelves-4.png"
+  },
+  {
+    "id": 40,
+    "title": "Geometric Display Shelf",
+    "price": 1150.00,
+    "description": "Unique, asymmetrical wall shelf with varying compartment sizes for artistic display. Black metal and wood.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-5.png"
+  },
+  {
+    "id": 41,
+    "title": "Foldable Edge Flip",
+    "price": 10990.00,
+    "description": "Innovative foldable smartphone. Compact design when closed, large flexible display when open. 8GB RAM, 256GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-6.png"
+  },
+  {
+    "id": 42,
+    "title": "PixelView Standard",
+    "price": 69900.00,
+    "description": "Excellent camera performance and pure OS experience. 6.3-inch Actua display, 8GB RAM, 128GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-7.png"
+  },
+  {
+    "id": 43,
+    "title": "Budget Talker 2",
+    "price": 19900.99,
+    "description": "Essential smartphone for communication and light use. 5.5-inch display, basic camera. 3GB RAM, 32GB storage.",
+    "category": "smartphones",
+   "image": "/dummyData/assets/smartphone-8.png"
+  },
+  {
+    "id": 44,
+    "title": "HydroSeal Marine Phone",
+    "price": 7500.00,
+    "description": "Submersible and highly shock-resistant phone designed for marine professionals and extreme sports. Long battery life.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-9.png"
+  },
+  {
+    "id": 45,
+    "title": "Compact Pro S",
+    "price": 8990.50,
+    "description": "Premium small-form-factor phone with flagship processor. 6.1-inch OLED, 10GB RAM, 128GB storage.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-10.png"
+  },
+  {
+    "id": 46,
+    "title": "Zenith Ultralight 13",
+    "price": 1050.00,
+    "description": "Extremely light and thin professional laptop. 13.3-inch FHD, 16GB RAM, 512GB SSD. Perfect for travel.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-6.webp"
+  },
+  {
+    "id": 47,
+    "title": "Workhorse 17",
+    "price": 89900.00,
+    "description": "Large-screen productivity laptop. 17.3-inch HD+, Intel i5, 12GB RAM, 1TB HDD + 256GB SSD combo.",
+    "category": "laptops",
+     "image": "/dummyData/assets/laptop-7.webp"
+  },
+  {
+    "id": 48,
+    "title": "Alpha Gaming X5",
+    "price": 25990.99,
+    "description": "Maximum performance gaming machine. 16-inch QHD 240Hz screen, RTX 4080, 64GB RAM, 4TB SSD.",
+    "category": "laptops",
+     "image": "/dummyData/assets/laptop-8.webp"
+  },
+  {
+    "id": 49,
+    "title": "2-in-1 Flex Tablet",
+    "price": 74900.00,
+    "description": "Versatile convertible laptop/tablet with stylus support. 10th Gen i3, 8GB RAM, 256GB SSD.",
+    "category": "laptops",
+     "image": "/dummyData/assets/laptop-9.webp"
+  },
+  {
+    "id": 50,
+    "title": "EcoBook Starter",
+    "price": 39900.00,
+    "description": "Sustainable and basic laptop for essential tasks. Built with recycled materials. 4GB RAM, 128GB eMMC.",
+    "category": "laptops",
+     "image": "/dummyData/assets/laptop-10.webp"
+  },
+  {
+    "id": 51,
+    "title": "Vivid 4K Projector",
+    "price": 11990.00,
+    "description": "High-brightness 4K Ultra HD smart home projector with built-in streaming apps. 150-inch max screen size.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-6.png"
+  },
+  {
+    "id": 52,
+    "title": "Smart Scale Pro",
+    "price": 5500.00,
+    "description": "Wi-Fi enabled smart scale tracking weight, BMI, body fat, and muscle mass. Syncs with fitness apps.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-7.png"
+  },
+  {
+    "id": 53,
+    "title": "Portable Bluetooth Speaker XL",
+    "price": 1990.99,
+    "description": "Powerful, rugged, waterproof Bluetooth speaker with 24 hours of playback and deep bass.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-8.png"
+  },
+  {
+    "id": 54,
+    "title": "Digital Drawing Tablet",
+    "price": 1290.50,
+    "description": "Professional drawing tablet with 8192 levels of pressure sensitivity and tilt function. Includes battery-free pen.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-9.png"
+  },
+  {
+    "id": 55,
+    "title": "Pet Feeder Cam",
+    "price": 1490.00,
+    "description": "Automatic pet feeder with built-in camera and two-way audio. Control feeding schedule via smartphone app.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-10.png"
+  },
+  {
+    "id": 56,
+    "title": "Media Creator Tower",
+    "price": 1599.00,
+    "description": "Pre-built PC optimized for content creation. Ryzen 7, 32GB RAM, dedicated high-end video card, liquid cooling.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-6.png"
+  },
+  {
+    "id": 57,
+    "title": "Budget Business Desktop",
+    "price": 3800.00,
+    "description": "Cost-effective, reliable desktop PC for standard office applications. Celeron, 4GB RAM, 1TB HDD.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-7.png"
+  },
+  {
+    "id": 58,
+    "title": "Sleek Micro Tower",
+    "price": 9500.00,
+    "description": "Stylish and compact micro ATX tower. Intel i5, 16GB RAM, 512GB NVMe SSD. Minimalist aesthetic.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-8.png"
+  },
+  {
+    "id": 59,
+    "title": "VR Ready Battle Station",
+    "price": 24990.00,
+    "description": "Extreme gaming PC built for 4K and VR. Latest generation i9, 32GB RAM, top-tier RTX graphics card.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-9.png"
+  },
+  {
+    "id": 60,
+    "title": "Touchscreen Thin Client",
+    "price": 62000.00,
+    "description": "All-in-One PC designed for efficient, network-based work environments. 24-inch FHD touchscreen.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-10.png"
+  },
+  {
+    "id": 61,
+    "title": "Sliding Door Closet",
+    "price": 7500.00,
+    "description": "Large wardrobe with space-saving sliding doors, divided storage sections, and full-length mirror panels.",
+    "category": "cupboards",
+    "image":  "/dummyData/assets/cupboard-6.png"
+  },
+  {
+    "id": 62,
+    "title": "Bathroom Linen Tower",
+    "price": 1650.99,
+    "description": "Tall, narrow cupboard with multiple shelves and a cabinet for organized bathroom storage. Water-resistant finish.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-7.png"
+  },
+  {
+    "id": 63,
+    "title": "Display Curio Cabinet",
+    "price": 3990.50,
+    "description": "Elegant cabinet with glass front and side panels, interior lighting, perfect for displaying collectibles.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-8.png"
+  },
+  {
+    "id": 64,
+    "title": "Metal Industrial Locker",
+    "price": 2100.00,
+    "description": "Authentic vintage-style metal locker with three individual locking compartments. Grey finish.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-9.png"
+  },
+  {
+    "id": 65,
+    "title": "Mid-Century Sideboard",
+    "price": 5800.00,
+    "description": "Low-profile buffet or sideboard with three drawers and two cabinets. Tapered legs and walnut finish.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-10.png"
+  },
+  {
+    "id": 66,
+    "title": "Hydraulic Storage Bed",
+    "price": 8500.00,
+    "description": "Queen size bed with a hydraulic lift mechanism to reveal massive storage space underneath the mattress.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-6.png"
+  },
+  {
+    "id": 67,
+    "title": "Bunk Bed with Ladder",
+    "price": 4990.00,
+    "description": "Standard twin-over-twin bunk bed made from durable pine wood. Includes a fixed ladder and safety rails.",
+    "category": "beds",
+    "image":  "/dummyData/assets/bed-7.png"
+  },
+  {
+    "id": 68,
+    "title": "Japanese Minimalist Futon",
+    "price": 2500.50,
+    "description": "Low-profile wooden futon frame, perfect for small rooms or a minimalist aesthetic. Full size.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-8.png"
+  },
+  {
+    "id": 69,
+    "title": "Adjustable Smart Base",
+    "price": 1199.99,
+    "description": "King size adjustable bed frame with massage settings, USB ports, and programmable positions.",
+    "category": "beds",
+    "image":  "/dummyData/assets/bed-9.png"
+  },
+  {
+    "id": 70,
+    "title": "Rustic Log Bed",
+    "price": 6990.00,
+    "description": "Queen size bed frame handcrafted from solid, reclaimed cedar logs. Ideal for a rustic cabin feel.",
+    "category": "beds",
+    "image":  "/dummyData/assets/bed-10.png"
+  },
+  {
+    "id": 71,
+    "title": "High Bar Table Set",
+    "price": 3150.00,
+    "description": "Counter-height rectangular table with two stools. Perfect for small, modern kitchens or wet bars.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-6.png"
+  },
+  {
+    "id": 72,
+    "title": "Oval Pedestal Table",
+    "price": 4990.00,
+    "description": "Classic oval dining table with a single central pedestal base. Seats 6. Walnut veneer finish.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-7.png"
+  },
+  {
+    "id": 73,
+    "title": "Live Edge Acacia Table",
+    "price": 8990.99,
+    "description": "Unique dining table featuring a solid Acacia wood top with natural 'live edge' detailing. Seats 6.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-8.png"
+  },
+  {
+    "id": 74,
+    "title": "Fold-Out Wall Mount Table",
+    "price": 1200.50,
+    "description": "Space-saving table that folds down from the wall when needed, ideal for micro-apartments.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-9.png"
+  },
+  {
+    "id": 75,
+    "title": "Patio Dining Set (4 Person)",
+    "price": 3800.00,
+    "description": "Outdoor dining set with a glass-top table and four weatherproof wicker chairs.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-10.png"
+  },
+  {
+    "id": 76,
+    "title": "Ladder Bookshelf",
+    "price": 9500.00,
+    "description": "Five-tier leaning shelf design. Stands against the wall, offering progressive shelf depth. White finish.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/dining-10.png"
+  },
+  {
+    "id": 77,
+    "title": "Modular Storage Cubes (Set of 4)",
+    "price": 7500.99,
+    "description": "Interlocking modular cubes that can be configured into various shelving arrangements. Plastic/metal frame.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/shelves-6.png"
+  },
+  {
+    "id": 78,
+    "title": "Hidden Bracket Shelf",
+    "price": 6000.00,
+    "description": "Extra-deep floating shelf with completely concealed mounting hardware, ideal for heavy items.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/shelves-7.png"
+  },
+  {
+    "id": 79,
+    "title": "Rotatable CD/DVD Tower",
+    "price": 4500.00,
+    "description": "Slim, rotatable media storage tower holding over 100 discs. Saves floor space.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/shelves-8.png"
+  },
+  {
+    "id": 80,
+    "title": "Glass Display Shelves",
+    "price": 1800.00,
+    "description": "Four-tier unit with tempered glass shelves and polished stainless steel frame. Modern look.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-9.png"
+  },
+  {
+    "id": 81,
+    "title": "Cube Storage Organizer (Bonus)",
+    "price": 8500.50,
+    "description": "Additional Modular 9-cube organizer ideal for vinyl records, toys, or general storage. Compatible with storage bins.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/shelves-10.png"
+  },
+  {
+    "id": 82,
+    "title": "Adjustable Wire Shelving (Bonus)",
+    "price": 9900.00,
+    "description": "Additional Chrome-plated commercial-grade wire shelving with adjustable shelf height. Great for pantry or garage.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-11.png"
+  },
+  {
+    "id": 83,
+    "title": "Geometric Display Shelf (Bonus)",
+    "price": 11500.00,
+    "description": "Additional Unique, asymmetrical wall shelf with varying compartment sizes for artistic display. Black metal and wood.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-12.png"
+  },
+  {
+    "id": 84,
+    "title": "Floating Wall Shelves (Bonus)",
+    "price": 4900.95,
+    "description": "Additional Set of three rectangular floating shelves with invisible mounting hardware. White high-gloss finish.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-13.png"
+  },
+  {
+    "id": 85,
+    "title": "5-Tier Industrial Bookshelf (Bonus)",
+    "price": 1500.00,
+    "description": "Additional Tall, open shelving unit with metal frame and distressed wood shelves. Perfect for books and decor.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-14.png"
+  }
+],
+ "TopDeals": 
+ [
+  {
+    "id": 1,
+    "title": "Ultra Pro X Smartphone",
+    "price":19999.99,
+    "description": "TOP DEAL: Flagship smartphone now $50 off! Includes 6.7-inch Super AMOLED display and 12GB RAM.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-1.png"
+  },
+  {
+    "id": 42,
+    "title": "PixelView Standard",
+    "price": 69900.00,
+    "description": "TOP DEAL: Highly-rated for camera performance and clean OS experience. Special discount applied.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-7.png"
+  },
+  {
+    "id": 5,
+    "title": "Rugged Explorer",
+    "price": 59999.99,
+    "description": "TOP DEAL: Durable, water, and dust-resistant smartphone, priced for a limited-time adventure sale.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-5.png"
+  },
+  {
+    "id": 41,
+    "title": "Foldable Edge Flip",
+    "price": 10990.00,
+    "description": "TOP DEAL: Innovative foldable phone with a $100 price reduction for this week only.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-6.png"
+  },
+  {
+    "id": 2,
+    "title": "Nova Lite 5G",
+    "price": 420.00,
+    "description": "TOP DEAL: Mid-range 5G phone at a huge discount. Great balance of features and price.",
+    "category": "smartphones",
+    "image": "/dummyData/assets/smartphone-2.png"
+  },
+  {
+    "id": 7,
+    "title": "Gaming Rig 3000",
+    "price": 1850.00,
+    "description": "TOP DEAL: High-end gaming laptop. Save over $149! Features 144Hz display and RTX 4070.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-3.webp"
+  },
+  {
+    "id": 6,
+    "title": "StellarBook Pro 14",
+    "price": 1399.00,
+    "description": "TOP DEAL: Premium ultrabook. Includes 16GB RAM and 1TB SSD. $100 price drop for professionals.",
+    "category": "laptops",
+    "image": "/dummyData/assets/laptop-2.webp"
+  },
+  {
+    "id": 48,
+    "title": "Alpha Gaming X5",
+    "price": 2499.99,
+    "description": "TOP DEAL: Maximum performance gaming machine with a free cooling pad bundle.",
+    "category": "laptops",
+     "image": "/dummyData/assets/laptop-8.webp"
+  },
+  {
+    "id": 51,
+    "title": "Vivid 4K Projector",
+    "price": 1099.00,
+    "description": "TOP DEAL: High-brightness 4K Ultra HD smart home projector, save $100 on home theater setup.",
+    "category": "gadgets",
+      "image": "/dummyData/assets/gadget-6.png"
+  },
+  {
+    "id": 12,
+    "title": "Noise-Cancelling Buds Z",
+    "price": 129.99,
+    "description": "TOP DEAL: True wireless earbuds with superb ANC. 24-hour total playback on sale.",
+    "category": "gadgets",
+    "image": "https://picsum.photos/id/451/600/400"
+  },
+  {
+    "id": 53,
+    "title": "Portable Bluetooth Speaker XL",
+    "price": 179.99,
+    "description": "TOP DEAL: Powerful, rugged, waterproof Bluetooth speaker. $20 off this week.",
+    "category": "gadgets",
+   "image": "/dummyData/assets/gadget-8.png"
+  },
+  {
+    "id": 14,
+    "title": "Mini Drone 4K",
+    "price": 375.00,
+    "description": "TOP DEAL: Foldable drone with 4K video recording. Price reduced for aerial enthusiasts.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-4.png"
+  },
+  {
+    "id": 13,
+    "title": "Portable Power Bank 20K",
+    "price": 40.00,
+    "description": "TOP DEAL: High-capacity 20,000mAh power bank. Essential for travel, lowest price of the season.",
+    "category": "gadgets",
+    "image": "/dummyData/assets/gadget-3.png"
+  },
+  {
+    "id": 16,
+    "title": "Desktop Workstation Pro",
+    "price": 1799.00,
+    "description": "TOP DEAL: High-end PC for professional design. $100 savings plus a free 4TB backup drive.",
+    "category": "pcs",
+    "image": "/dummyData/assets/pc-1.webp"
+  },
+  {
+    "id": 59,
+    "title": "VR Ready Battle Station",
+    "price": 2399.00,
+    "description": "TOP DEAL: Extreme gaming PC built for 4K and VR. Save $100 instantly on this powerhouse.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-9.png"
+  },
+  {
+    "id": 18,
+    "title": "Beginner Gaming PC",
+    "price": 849.99,
+    "description": "TOP DEAL: Entry-level pre-built gaming PC. $50 price drop makes this ideal for new gamers.",
+    "category": "pcs",
+     "image": "/dummyData/assets/pc-3.webp"
+  },
+  {
+    "id": 19,
+    "title": "All-in-One Touch 27",
+    "price": 1250.00,
+    "description": "TOP DEAL: 27-inch All-in-One PC. Sleek design, integrated webcam, now at a promotional price.",
+    "category": "pcs",
+     "image": "/dummyData/assets/pc-4.webp"
+  },
+  {
+    "id": 56,
+    "title": "Media Creator Tower",
+    "price": 1499.00,
+    "description": "TOP DEAL: PC optimized for content creation. Includes dedicated video card and liquid cooling.",
+    "category": "pcs",
+    "image":  "/dummyData/assets/pc-6.png"
+  },
+  {
+    "id": 21,
+    "title": "Modern 3-Door Wardrobe",
+    "price": 420.00,
+    "description": "TOP DEAL: Spacious 3-door wardrobe with a matte finish. Price reduced for quick delivery.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-1.png"
+  },
+  {
+    "id": 70,
+    "title": "Mid-Century Sideboard",
+    "price": 550.00,
+    "description": "TOP DEAL: Low-profile buffet/sideboard with walnut finish. Timeless style at a lower price.",
+    "category": "cupboards",
+    "image":  "/dummyData/assets/bed-10.png"
+  },
+  {
+    "id": 61,
+    "title": "Sliding Door Closet",
+    "price": 700.00,
+    "description": "TOP DEAL: Large wardrobe with space-saving sliding doors. Highly functional storage solution.",
+    "category": "cupboards",
+    "image":  "/dummyData/assets/cupboard-6.png"
+  },
+  {
+    "id": 22,
+    "title": "Vintage Oak Kitchen Cupboard",
+    "price": 590.00,
+    "description": "TOP DEAL: Solid oak wood cupboard with glass panel doors. Limited stock discount.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-2.png"
+  },
+  {
+    "id": 63,
+    "title": "Display Curio Cabinet",
+    "price": 375.00,
+    "description": "TOP DEAL: Elegant cabinet with glass front and interior lighting for collectibles.",
+    "category": "cupboards",
+    "image": "/dummyData/assets/cupboard-8.png"
+  },
+  {
+    "id": 26,
+    "title": "King Size Platform Bed",
+    "price": 520.00,
+    "description": "TOP DEAL: Minimalist king size bed frame. Simple, modern, and currently $30 off.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-1.png"
+  },
+  {
+    "id": 66,
+    "title": "Hydraulic Storage Bed",
+    "price": 799.00,
+    "description": "TOP DEAL: Queen size storage bed with lift mechanism. Maximize space in small rooms.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-6.png"
+  },
+  {
+    "id": 27,
+    "title": "Upholstered Queen Bed",
+    "price": 750.00,
+    "description": "TOP DEAL: Plush queen bed with storage drawers. A luxurious look at a sale price.",
+    "category": "beds",
+    "image": "/dummyData/assets/bed-2.png"
+  },
+  {
+    "id": 69,
+    "title": "Adjustable Smart Base",
+    "price": 1150.00,
+    "description": "TOP DEAL: King size adjustable bed frame with massage settings and USB ports. Premium comfort on sale.",
+    "category": "beds",
+    "image":  "/dummyData/assets/bed-9.png"
+  },
+  {
+    "id": 30,
+    "title": "Loft Bed with Desk",
+    "price": 390.00,
+    "description": "TOP DEAL: Space-saving single loft bed with an integrated desk. Perfect for students.",
+    "category": "beds",
+     "image": "/dummyData/assets/bed-5.png"
+  },
+  {
+    "id": 33,
+    "title": "Rustic Farmhouse Table",
+    "price": 680.00,
+    "description": "TOP DEAL: Large rectangular dining table made from reclaimed barn wood. Seats 8-10. Save $40.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-3.png"
+  },
+  {
+    "id": 31,
+    "title": "Extendable Dining Table (6-8)",
+    "price": 575.00,
+    "description": "TOP DEAL: Solid wood dining table that easily extends. Ideal for family gatherings.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-1.png"
+  },
+  {
+    "id": 73,
+    "title": "Live Edge Acacia Table",
+    "price": 849.99,
+    "description": "TOP DEAL: Unique solid Acacia wood table. Artisan quality at a discounted price.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-8.png"
+  },
+  {
+    "id": 71,
+    "title": "High Bar Table Set",
+    "price": 299.00,
+    "description": "TOP DEAL: Counter-height rectangular table with two stools. Perfect for modern, small kitchens.",
+    "category": "dining_table",
+    "image":  "/dummyData/assets/dining-6.png"
+  },
+  {
+    "id": 32,
+    "title": "Round Glass Top Table",
+    "price": 330.00,
+    "description": "TOP DEAL: Modern round dining table with chrome base. Space-friendly design.",
+    "category": "dining_table",
+    "image": "/dummyData/assets/dining-2.png"
+  },
+  {
+    "id": 36,
+    "title": "5-Tier Industrial Bookshelf",
+    "price": 140.00,
+    "description": "TOP DEAL: Tall, open industrial shelving unit. $10 off the regular price.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-1.png"
+  },
+  {
+    "id": 76,
+    "title": "Ladder Bookshelf",
+    "price": 85.00,
+    "description": "TOP DEAL: Five-tier leaning shelf design. Highly popular for modern, decorative storage.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/dining-10.png"
+  },
+  {
+    "id": 37,
+    "title": "Floating Wall Shelves (Set of 3)",
+    "price": 39.99,
+    "description": "TOP DEAL: Set of three rectangular floating shelves. Easy to mount and great for displaying items.",
+    "category": "shelves",
+    "image": "/dummyData/assets/shelves-2.png"
+  },
+  {
+    "id": 78,
+    "title": "Hidden Bracket Shelf",
+    "price": 55.00,
+    "description": "TOP DEAL: Extra-deep floating shelf with concealed mounting. Great for heavy items.",
+    "category": "shelves",
+    "image":  "/dummyData/assets/shelves-7.png"
+
+  },
+  {
+    "id": 39,
+    "title": "Adjustable Wire Shelving Unit",
+    "price": 89.00,
+    "description": "TOP DEAL: Chrome-plated commercial-grade wire shelving. Perfect for pantry or garage organization.",
+    "category": "shelves",
+    "image":"/dummyData/assets/shelves-4.png"
+  }]
+}

@@ -1,0 +1,264 @@
+.navbar-right{
+    width:50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    height:80px;   
+    /* color:#1A1A1A;*/
+}
+.close-btn {
+  display: none;
+}
+
+.navbar-left img{
+    width:50px;
+    height:50px;
+}
+
+.navbar-left{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar{    
+    background-color: #B9BBB4;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin-bottom: 40px;
+    width:100vw;
+    top:0;
+    position:fixed;
+    z-index: 100;
+}
+
+#carousel-section
+{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+  width: 1200px;
+  height:150px;
+  position:relative;
+  border-radius: 30px;
+}
+
+.carousel ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.slide {
+  position:absolute;
+  opacity:0;
+  transform: scale(0.95);
+  transition: all .4s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0);
+}
+
+.slide img {
+  width:100%;
+  height:150px;
+  object-fit: cover;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media (max-width:500px) {
+  .slide img{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+}
+
+.carousel-button {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:4rem;
+  /* padding:0 .5rem; */
+  border:none;
+  cursor:pointer;
+  color:rgba(255,255,255,.5);
+  background:rgba(0,0,0,.1);
+  border-radius:.25rem;
+  z-index:2;
+}
+
+.carousel-button.prev { 
+  left:1rem;
+}
+
+@media (max-width:500px) {
+  .carousel-button.prev{
+    left: 1rem;
+    font-size: 2rem;
+    top: 15%;
+  }
+
+  .carousel-button.next{
+    right: 1rem;
+    top: 15%;
+    font-size: 2rem;
+  }
+  .carousel{
+    
+  }
+}
+    
+
+.carousel-button.next {
+   right:1rem;
+}
+
+.carousel-button:hover {
+  background:rgba(0,0,0,.2);
+  color:white;
+}
+
+
+.navbar-center{
+  display: flex;
+  align-items: center;
+  width:20vw;
+}
+
+
+.search-wrapper {
+  position: relative; 
+  width: 18.75rem; 
+  z-index: 1000; 
+}
+
+
+.search-wrapper input[type="text"] {
+  width: 100%; 
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+.suggestions {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  background: white;
+  border: 1px solid #ddd;
+  /* border-top: none;  */
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 200px; 
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  display: block; 
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  border-bottom: 1px solid #eee; 
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+.no-result {
+  padding: 10px 15px;
+  color: #777;
+  text-align: center;
+  margin: 0;
+}
+/* #suggestions-link{ */
+  /* z-index: 1002; */
+/* } */
+
+.navbar-hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-hamburger img {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 500px) {
+
+  .navbar-right {
+    position: fixed;
+    top: 0;
+    right: -70%;    
+    width: 60%;
+    height: 100vh;
+    background: #B9BBB4;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 25px;
+    z-index: 200;
+    justify-content: flex-start;
+     transition: all 0.5s ease-in-out;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .navbar-center{
+    width:50vw;
+  }
+  
+
+  .navbar-right.open-nav {
+    right: 0;   
+    flex-direction: column;
+    align-items: center;  
+    z-index:2000;  
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20vw;
+  }
+
+  .close-btn {
+    display:flex;
+    position: absolute;
+    top: 10px;
+    right: 27px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  .navbar-left img{
+    /* width: 30px;
+    height: 30px; */
+  }
+
+}
+

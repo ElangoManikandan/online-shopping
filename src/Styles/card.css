@@ -1,0 +1,117 @@
+.top-deals-card-div img{
+width: 150px;height: 150px;
+}
+.top-deals-card-div
+{
+    width: 21.2%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border-radius:20px;
+     transition: all 0.1s linear;   
+     /* display: fl ex; */
+    /*align-items: center;*/
+    /* justify-content: center;  */
+    /* justify-items: center; */
+     /* flex-direction: column;   */
+}
+.top-deals-card-div p{
+    padding: 10px;
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    margin-bottom: 0;
+    cursor: pointer;
+
+}
+.top-deals-card-div:hover{
+    box-shadow: 0 4px 15px rgba(0,0,0,.50);
+    border:2px solid black;
+    transform: translateY(-10px);
+
+}
+
+.top-deals-card-div button {
+    padding:10px;
+    border:1px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    margin: 0px 20px;
+    color:black;
+    cursor: pointer;
+}
+
+.top-deals-card-div button:nth-child(1){
+    
+    background-image: linear-gradient(135deg,green,lightgreen);
+    border: none;
+    box-shadow: none;
+    color: white;
+
+}
+
+#atc-button{
+    background-image: linear-gradient(135deg,orange,rgb(182, 157, 110));
+    border: none;
+    box-shadow: none;
+    color: white;
+
+}
+
+.top-deals-card-div button:hover{
+    background-color: white;
+    color:black;
+}
+.top-deals-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top-deals-card-div h1{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+    .top-deals-card-div {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .top-deals-card-div img {
+        width: 100px;
+        height: 100px;
+    }
+    .top-deals-card-div h1 {
+        font-size: 16px;
+    }
+    .top-deals-card-div p {
+        font-size: 14px;
+    }
+    .top-deals-card-div button {
+        padding: 8px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .top-deals-card-div {
+        width: 30%;
+    }
+    .top-deals-card-div img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-deals-card-div {
+        width: 45%;
+    }
+    .top-deals-card-div img {
+        width: 120px;
+        height: 120px;
+    }
+    .top-deals-card-div h1 {
+        font-size: 18px;
+    }
+}

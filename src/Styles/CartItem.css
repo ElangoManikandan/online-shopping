@@ -1,0 +1,105 @@
+.carts{
+    text-align: center;
+}
+.cart-card-div img{
+width: 150px;height: 150px;
+}
+
+.cart-card-div{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius:20px;
+    transition: all 0.2s linear; 
+    
+}
+
+.cart-card-div p{
+    padding: 10px;
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    margin-bottom: 0;
+
+}
+.cart-card-div:hover{
+    box-shadow: 0 4px 15px rgba(0,0,0,.50);
+    border:2px solid black;
+    transform:  scale(1.05);
+}
+#cart-btn-1{
+    background-image: linear-gradient(135deg,orange,rgb(182, 157, 110));
+    padding:10px;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#cart-btn-2{
+    background-image: linear-gradient(135deg,rgb(16, 16, 154),rgb(22, 81, 198));
+    padding:10px;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .cart-page{
+     min-height: 77vh;
+ }
+
+ @media (max-width: 480px) {
+    .cart-card-div {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .cart-card-div img {
+        width: 100px;
+        height: 100px;
+    }
+    .cart-card-div h1 {
+        font-size: 16px;
+    }
+    .cart-card-div p {
+        font-size: 14px;
+    }
+    .cart-card-div button {
+        padding: 8px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cart-card-div {
+        width: 30%;
+    }
+    .cart-card-div img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-card-div {
+        width: 70%;
+        border:2px solid black;
+    }
+    .cart-card-div img {
+        width: 120px;
+        height: 120px;
+    }
+    .cart-card-div h1 {
+        font-size: 18px;
+    }
+    /* .carts-header{
+      align-items: center;
+      justify-content: center;
+      width:100vw;
+    } */
+}
