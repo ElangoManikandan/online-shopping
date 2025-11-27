@@ -54,7 +54,7 @@ a {
 }
 .furniture-container{
     display: grid;
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
     /* gap: 100px; */
     width:100%;
@@ -76,10 +76,15 @@ a {
   }
   .products-container{
             margin-top: -100px;
-  }  .accessories-container{
+  }
+.accessories-container{
     width:90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .furniture-container{
     width:90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
