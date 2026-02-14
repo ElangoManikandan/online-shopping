@@ -16,7 +16,7 @@
       "price": 14449.50,
       "description": "Mid-range 5G phone. 6.5-inch OLED screen, 64MP triple camera, 4500mAh battery. 8GB RAM, 128GB storage.",
       "category": "smartphones",
-      "image": "/dummyData/assets/smartphone-2.png"
+      "image": "https://res.cloudinary.com/df84m9bzn/image/upload/v1771049445/smartphone-2_zitkzj.png"
     },
 
   {
@@ -25,7 +25,7 @@
     "price": 13299.00,
     "description": "Compact and budget-friendly smartphone. 5.8-inch display, dual camera, all-day battery life. 4GB RAM, 64GB storage.",
     "category": "smartphones",
-    "image": "/dummyData/assets/smartphone-3.png"
+    "image": "https://res.cloudinary.com/df84m9bzn/image/upload/v1771049262/smartphone-3_gof705.png"
   },
 
   {
@@ -34,7 +34,7 @@
     "price": 121299.99,
     "description": "High-performance gaming phone. 144Hz refresh rate, powerful processor, advanced cooling system. 16GB RAM, 512GB storage.",
     "category": "smartphones",
-    "image": "/dummyData/assets/smartphone-4.png"
+    "image": "https://res.cloudinary.com/df84m9bzn/image/upload/v1771049240/smartphone-4_woxpzt.png"
   },
 
   {
@@ -43,7 +43,7 @@
     "price": 59999.99,
     "description": "Durable, water, and dust-resistant smartphone. Ideal for outdoor use. Long-lasting battery. 8GB RAM, 128GB storage.",
     "category": "smartphones",
-    "image": "/dummyData/assets/smartphone-5.png"
+    "image": "https://res.cloudinary.com/df84m9bzn/image/upload/v1771049241/smartphone-5_ywwzwn.png"
   },
 
   {
