@@ -7,7 +7,7 @@
       "price": 19999.99,
       "description": "Flagship smartphone with 6.7-inch Super AMOLED display, 108MP camera, and 5000mAh battery. 12GB RAM, 256GB storage.",
       "category": "smartphones",
-      "image": "../dummyData/assets/smartphone-1.png"
+      "image": "https://res.cloudinary.com/df84m9bzn/image/upload/v1771049420/smartphone-1_ulpsnu.png"
     },
 
     {
